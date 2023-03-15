@@ -12,9 +12,9 @@ function Row({isPoster,title,fetchUrl}) {
     }
     useEffect(() => {
       return () => {
-        fetchData()
+        fetchData();
       }
-    }, [])
+    }, []);
     // console.log(movies);
 
   return (
